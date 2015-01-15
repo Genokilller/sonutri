@@ -50,7 +50,7 @@ header nav {
 
 header nav ul {
     margin: auto;
-    width: 900px;
+    width: 1000px;
 }
 
 header nav ul li a:hover{
@@ -74,7 +74,7 @@ header nav ul li img {
     background: #ffffff;
     margin: auto;
     padding: 0;
-    width: 75%;
+    width: 90%;
 }
 
 #breadcrumb ul li{
@@ -105,7 +105,7 @@ header nav ul li img {
 
 #content {
     float: left;
-    width: 66%;
+    width: 62%;
     padding: 20px 15px 0 0;
     text-align: justify;
     font-size: 20px;
@@ -165,7 +165,7 @@ section#contextual .menu-label {
 }
 
 #main {
-    width: 75%;
+    width: 90%;
     display: block;
     margin: auto;
 }
@@ -256,7 +256,7 @@ footer #infos img {
     height: 40px;
 }
 footer #container {
-    width: 75%;
+    width: 90%;
     margin: auto;
 }
 

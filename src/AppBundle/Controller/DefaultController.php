@@ -127,7 +127,7 @@ class DefaultController extends Controller
                 $message = \Swift_Message::newInstance();
                 $message->setContentType('text/html');
                 $message->setSubject($contact['subject']);
-                $message->setTo('vincent.paulin24@gmail.com');
+                $message->setTo('sonutri59@gmail.com');
                 $message->setFrom($contact['email']);
                 $message->setBody($contact['email'].'<br><br><br>'.$contact['content']);
 
