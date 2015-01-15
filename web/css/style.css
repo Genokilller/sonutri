@@ -140,16 +140,16 @@ section#contextual .menu-label {
 #contextual nav ul li#zones .menu-label {
     background: #cbca6b;
 }
-#contextual nav ul li#temoignages .menu-label{
+#contextual nav ul li#therapeutique .menu-label {
     background: #82a61f;
 }
-#contextual nav ul li#therapeutique .menu-label {
+#contextual nav ul li#idees .menu-label {
     background: #f39c2a;
 }
-#contextual nav ul li#idees .menu-label {
+#contextual nav ul li#semainier .menu-label {
     background: #fc6520;
 }
-#contextual nav ul li#semainier .menu-label {
+#contextual nav ul li#temoignages .menu-label{
     background: #c9653a;
 }
 
@@ -325,7 +325,7 @@ button:hover {
     cursor: pointer;
 }
 
-#actions #contact {
+#actions #contact, form input[type="submit"] {
     background: #640433;
     color: #ffffff;
     border: 1px solid #ffffff;
@@ -377,4 +377,21 @@ button:hover {
     width: 500px;
     border-left: 2px solid #cecece;
     padding-left: 10px;
+}
+
+form input {
+    height: 20px;
+    padding: 5px;
+    width: 400px;
+}
+
+form textarea {
+    height: 150px;
+    padding: 5px;
+    width: 400px;
+}
+
+form input[type="submit"] {
+    height: 60px;
+    cursor: pointer;
 }

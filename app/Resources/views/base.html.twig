@@ -45,10 +45,12 @@
                     <hr id="title-bar">
                     {% block content %}
                     {% endblock %}
-                    <section id="actions">
-                        <a href="{{ path("devis") }}"><button id="devis">Demander un devis</button></a>
-                        <a href="{{ path("contact") }}"><button id="contact">Me contacter</button></a>
-                    </section>
+                    {% block contact %}
+                        <section id="actions">
+                            <a href="{{ path("contact") }}"><button id="devis">Demander un devis</button></a>
+                            <a href="{{ path("contact") }}"><button id="contact">Me contacter</button></a>
+                        </section>
+                    {% endblock %}
                 </section>
 
                 <section id="contextual">
@@ -58,12 +60,6 @@
                                 <a href="{{ path("zones") }}">
                                     <div class="menu-label">zones d'intervention</div>
                                     <div><img src="{{ asset('images/zones.png') }}" /></div>
-                                </a>
-                            </li>
-                            <li id="temoignages">
-                                <a href="{{ path("temoignages") }}">
-                                    <div class="menu-label">témoignages patients</div>
-                                    <div><img src="{{ asset('images/temoignages.png') }}" /></div>
                                 </a>
                             </li>
                             <li id="therapeutique">
@@ -82,6 +78,12 @@
                                 <a href="{{ path("semainier") }}">
                                     <div class="menu-label">semainier</div>
                                     <div><img src="{{ asset('images/semainier.png') }}" /></div>
+                                </a>
+                            </li>
+                            <li id="temoignages">
+                                <a href="{{ path("temoignages") }}">
+                                    <div class="menu-label">témoignages patients</div>
+                                    <div><img src="{{ asset('images/temoignages.png') }}" /></div>
                                 </a>
                             </li>
                         </ul>
@@ -109,31 +111,30 @@
                     <section id="logo-footer"><a><img src="{{ asset('images/logo-footer.png') }}"></a></section>
                     <section id="menu-first">
                         <ul>
-                            <li><a>Coaching diététique</a></li>
-                            <li><a>Préstations externes</a></li>
-                            <li><a>Tarifs</a></li>
-                            <li><a>Qui suis-je ?</a></li>
+                            <li><a href="{{ path("coaching") }}">Coaching diététique</a></li>
+                            <li><a href="{{ path("prestations") }}">Préstations externes</a></li>
+                            <li><a href="{{ path("tarifs") }}">Tarifs</a></li>
+                            <li><a href="{{ path("quisuisje") }}">Qui suis-je ?</a></li>
                         </ul>
                     </section>
                     <section id="menu-contextual">
                         <ul>
-                            <li><a>Zones d'intervention</a></li>
-                            <li><a>Témoignages patients</a></li>
-                            <li><a>Diététique thérapeutique</a></li>
-                            <li><a>Idées recettes</a></li>
-                            <li><a>Semainier</a></li>
+                            <li><a href="{{ path("zones") }}">Zones d'intervention</a></li>
+                            <li><a href="{{ path("temoignages") }}">Témoignages patients</a></li>
+                            <li><a href="{{ path("dietetique") }}">Diététique thérapeutique</a></li>
+                            <li><a href="{{ path("idees") }}">Idées recettes</a></li>
+                            <li><a href="{{ path("semainier") }}">Semainier</a></li>
                         </ul>
                     </section>
                     <section id="links">
                         <ul>
-                            <li><a>Me contacter</a></li>
-                            <li><a>Demander un devis</a></li>
-                            <li><a>Mentions légales</a></li>
+                            <li><a href="{{ path("contact") }}">Me contacter</a></li>
+                            <li><a href="{{ path("contact") }}">Demander un devis</a></li>
                         </ul>
                     </section>
                     <div style="clear:both;"></div>
                     <section id="infos">
-                        <p><a><img src="/images/facebook.png"><span id="facebook-text">Rejoignez-moi sur Facebook</span></a></p>
+                        <p><a href="http://facebook.com/sophie.paulin.18" target="_blank"><img src="/images/facebook.png"><span id="facebook-text">Rejoignez-moi sur Facebook</span></a></p>
                         <p>2015 So'Nutri. Tout droits réservés.</p>
                     </section>
                 </div>

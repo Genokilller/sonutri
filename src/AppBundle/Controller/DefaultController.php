@@ -124,8 +124,6 @@ class DefaultController extends Controller
                 // Send message
                 $contact = $form->getData();
 
-                var_dump($contact);
-
                 $message = \Swift_Message::newInstance();
                 $message->setContentType('text/html');
                 $message->setSubject($contact['subject']);
