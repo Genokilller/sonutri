@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Contact
+{% endblock %}
+{% block mainTitle %}
+    Contact
+{% endblock %}
+{% block breadcrumbFirst %}<strong><a>> Contact</a></strong>{% endblock %}
+{% block content %}
+    {% if form_errors(form)|length > 0 %}
+        <div class="flash">
+            {{ form_errors(element) }}
+        </div>
+    {% endif %}
+    <form action="{{ path('contact') }}" method="post">
+        <p>
+            {% if form_errors(form.subject)|length > 0 %}
+                {{ form_widget(form.subject, { 'attr':{'placeholder': 'Objet', 'class': 'errorInput' }}) }}
+            {% else %}
+                {{ form_widget(form.subject, { 'attr':{'placeholder': 'Objet'|trans }}) }}
+            {% endif %}
+
+        </p>
+
+        <p>
+            {% if form_errors(form.email)|length > 0 %}
+                {{ form_widget(form.email, { 'attr':{'placeholder': 'Email', 'class': 'errorInput' }}) }}
+            {% else %}
+                {{ form_widget(form.email, { 'attr':{'placeholder': 'Email' }}) }}
+            {% endif %}
+
+        </p>
+
+        <p>
+            {% if form_errors(form.content)|length > 0 %}
+                {{ form_widget(form.content, { 'attr':{'placeholder': 'Message', 'class': 'errorInput' }}) }}
+            {% else %}
+                {{ form_widget(form.content, { 'attr':{'placeholder': 'Message'}}) }}
+            {% endif %}
+        </p>
+
+        {{ form_rest(form) }}
+
+        <p class="submit">
+            <input type="submit" value="{{ 'Envoyer' }}"/>
+        </p>
+    </form>
+
+{% endblock %}

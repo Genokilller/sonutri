@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Actu nutrition
+{% endblock %}
+{% block mainTitle %}
+    Actu nutrition
+{% endblock %}
+{% block breadcrumbFirst %}<strong><a>> Actu nutrition</a></strong>{% endblock %}
+{% block content %}
+
+    <img src="{{ asset('/images/actu.png') }}" style="float:left;padding: 20px 20px 20px 0;max-width: 300px;"/>
+    <h2>Un regard nouveau sur l’étiquetage nutritionnel</h2>
+    Aujourd’hui, les informations nutritionnelles des aliments sont souvent complexes avec une liste d’ingrédients qui nous paraît bien difficile à déchiffrer. Pourtant, nous aimerions pouvoir en tirer des informations claires nous permettant de comparer les produits entre eux et de faire les bons choix. C’est ce que propose un rapport remis récemment à la Ministre des Affaires Sociales et de la Santé.
+
+    Un logo de couleur unique nous permettrait de pouvoir en un seul coup d’œil de justifier la qualité nutritionnelle du produit.  Comment serait calculée cette dernière ? Un score international reprend les mêmes données que sur les emballages actuels tout en les simplifiant. On attribue des points pour la densité énergétique, la quantité de sucres
+    et d’acides gras saturés et on pondère avec la quantité de fibres, protéines ou de fruits et légumes dans le produit. Résultat : plus le score est bas plus le produit est de bonne qualité nutritionnelle et inversement. A partir de ce score en détermine à quelle catégorie le produit appartient à laquelle une couleur sera attribuée. C’est le système des feux tricolores.
+
+    Une bonne nouvelle qui risque de ravir nos papilles et notre santé !
+
+    <hr style="margin:30px auto;width: 80%">
+    <img src="{{ asset('/images/pasta.jpg') }}" style="float:left;padding: 20px 20px 20px 0;max-width: 300px;"/>
+    <h2>Le danger des régimes sans féculents</h2>
+
+    Vous avez certainement du entendre que les féculents et la ligne ne faisaient pas bon ménage. Bien au contraire !
+
+    <h3>Que nous apportent-ils ?</h3>
+    Sous l’appellation «féculents» nous retrouvons les pommes de terre, les pâtes, le riz, la semoule ainsi que d’autres céréales moins connue comme l’orge, le sarrazin, le quinoa, l’avoine...On y retrouve également les légumineuses : flageolets, pois cassés, haricots rouges et blancs, fèves ou encore les pois chiches.
+    Ils nous apportent de l’énergie de manière progressive tout au long de la journée sous forme de glucides nécessaires au bon fonctionnement de nos cellules. Certains organes sont dis «gluco-dépendants» c’est le cas du cerveau. Les sportifs ont des besoins accrus en sucres lents afin de pouvoir réaliser des efforts intenses. Enfin, ils sont sources de fibres nécessaires pour un bon transit ainsi que de vitamines et minéraux.
+
+    <h3>Que se passe t-il si on supprime les féculents ?</h3>
+
+    Les risques de sensation de faim, de fatigue et de constipation sont importants. Le manque de sucre peu rapidement se faire sentir et entraîner des grignotages  et une frustration poussant à la prise d’aliments à forte densité énergétique. Ce mécanisme met en place un effet «yoyo» qui va favoriser la prise de poids sur le long terme.
+
+    Un régime sans féculents est donc à proscrire ! Rapprochez vous de votre diététicienne pour vous aider à déterminer les quantités dont votre corps a besoin.
+
+    <hr style="margin:30px auto;width: 80%">
+{% endblock %}

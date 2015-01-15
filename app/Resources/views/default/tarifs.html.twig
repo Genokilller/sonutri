@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Tarifs
+{% endblock %}
+{% block mainTitle %}
+    Tarifs
+{% endblock %}
+{% block breadcrumbFirst %}<strong><a>> Tarifs</a></strong>{% endblock %}
+{% block content %}
+    <table id="tarifs-table">
+        <thead>
+            <th></th>
+            <th><img src="/images/tarif-solo.jpg" /><br> Individuel</th>
+            <th><img src="/images/tarif-couple.jpg" /><br> Forfait couple</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1ère consultation</td>
+                <td>40 €</td>
+                <td>75 €</td>
+            </tr>
+            <tr>
+                <td>Consultations de suivi</td>
+                <td>25 €</td>
+                <td>45 €</td>
+            </tr>
+            <tr>
+                <td>Bilans mensuels</td>
+                <td>25 €</td>
+                <td>45 €</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p style="color: #640433;text-align: center;">Des ateliers cuisine sont possibles ainsi qu’un accompagnement lors des courses
+        alimentaires. N’hésitez pas à vous renseigner auprès de votre diététicienne.
+    </p>
+
+    <p style="text-align: center;"><a href="{{ path('prestations') }}" style="color:#000000;"><img src="/images/presta-link.jpg" alt="Prestations externes"><br>Prestations externes uniquement sur devis</a></p>
+
+{% endblock %}

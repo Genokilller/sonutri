@@ -1,0 +1,380 @@
+body {
+    margin: auto;
+    font-family: "Lato";
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 227px;
+    background: #640433;
+    color: #e0dddd;
+}
+
+header a {
+    color: #e0dddd;
+}
+
+#logo {
+    text-align: center;
+    padding: 15px;
+}
+
+#logo img {
+    max-width: 100px;
+}
+
+header #logo p {
+    margin: 0;
+    font-family: "Futura";
+    font-size: 20px;
+}
+
+header nav {
+    height: 50px;
+    background: #ffffff;
+    font-variant: small-caps;
+    font-size: 22px;
+    font-weight: 300;
+    border-bottom: 1px solid #640433;
+}
+
+header nav ul {
+    margin: auto;
+    width: 900px;
+}
+
+header nav ul li a:hover{
+    font-weight: bolder;
+}
+
+header nav ul li a{
+    margin: 0;
+    padding: 11px 35px;
+    color: #640433;
+    display: block;
+}
+
+header nav ul li img {
+    padding-top: 5px;
+    max-width: 18px;
+}
+
+#breadcrumb {
+    height: 30px;
+    background: #ffffff;
+    margin: auto;
+    padding: 0;
+    width: 75%;
+}
+
+#breadcrumb ul li{
+    float: left;
+    color: #640433;
+    list-style-type: none;
+    padding: 5px 3px;
+    font-size: 12px;
+}
+
+#breadcrumb ul li a{
+    color: #640433;
+}
+
+#breadcrumb ul:first-child{
+    padding-top: 3px;
+}
+
+#breadcrumb ul:first-child img{
+    max-height: 15px;
+}
+
+#contextual {
+    width: 390px;
+    float: right;
+    margin-top: 50px;
+}
+
+#content {
+    float: left;
+    width: 66%;
+    padding: 20px 15px 0 0;
+    text-align: justify;
+    font-size: 20px;
+    font-family: "lora";
+}
+
+nav ul li {
+    float: left;
+    list-style-type: none;
+}
+
+nav ul li div:first-child {
+    background: #e6e9e0;
+}
+
+#contextual nav  {
+    float: left;
+}
+
+section#contextual .menu-label {
+    color: #ffffff;
+    font-family: Futura;
+    font-size: 24px;
+    font-variant: small-caps;
+    padding: 28px 0px 0px 0px;
+    width: 243px;
+    height: 62px;
+    text-align: center;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+}
+#contextual nav ul li#zones .menu-label {
+    background: #cbca6b;
+}
+#contextual nav ul li#temoignages .menu-label{
+    background: #82a61f;
+}
+#contextual nav ul li#therapeutique .menu-label {
+    background: #f39c2a;
+}
+#contextual nav ul li#idees .menu-label {
+    background: #fc6520;
+}
+#contextual nav ul li#semainier .menu-label {
+    background: #c9653a;
+}
+
+#contextual nav ul li div {
+    background: #640433;
+    width: 145px;
+    height: 90px;
+    float: left;
+}
+
+#contextual nav ul li {
+    margin-top: 10px;
+}
+
+#main {
+    width: 75%;
+    display: block;
+    margin: auto;
+}
+
+#portrait, #actu {
+    float: left;
+    margin-top: 15px;
+    background: #640433;
+    width: 99%;
+    color: #ffffff;
+    padding: 1px;
+}
+
+#actu {
+    background: #82a61f;
+}
+
+#portrait h2, #actu h2 {
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 15px 0 0 15px;
+}
+
+#portrait h3, #actu h3 {
+    margin: 0;
+    font-weight: 400;
+    padding: 0px 0 15px 15px;
+}
+
+#portrait img, #actu img {
+    max-width: 100%;
+}
+
+footer {
+    border-top: solid 1px #640433;
+    margin-top: 30px;
+    padding: 20px 0 0 0px;
+    background: url("/images/fruits.png") no-repeat;
+    background-position: bottom;
+    height: 250px;
+    font-size: 14px;
+}
+
+footer section {
+    float: left;
+}
+
+footer section#logo-footer {
+    margin-right: 200px;
+    margin-left: 50px;
+}
+
+footer section#menu-first, footer section#menu-contextual {
+    margin-right: 80px;
+}
+
+footer ul li {
+    list-style-type: none;
+}
+
+footer a {
+    color: #000000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer #infos {
+    width: 260px;
+    margin: auto;
+    float: none;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer #infos img {
+    float: left;
+    margin-left: 20px;
+}
+
+#facebook-text {
+    padding-top: 6px;
+    display: block;
+    float: left;
+    width: 77%;
+    height: 40px;
+}
+footer #container {
+    width: 75%;
+    margin: auto;
+}
+
+hr#title-bar {
+    width: 20px;
+    color: #640433;
+    float: left;
+    margin: 0 0 0 0;
+}
+
+#content h1 {
+    margin-bottom: 6px;
+    color: #640433;
+    text-transform: uppercase;
+    font-family: "Lato";
+}
+
+#content h2 {
+    color: #82a61f;
+    font-family: Futura;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+}
+
+#content h3 {
+    color: #fc6520;
+    font-family: Futura;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: extra-condensed;
+    letter-spacing: -1px;
+}
+
+#content blockquote {
+    font-weight: bold;
+    text-align: center;
+}
+
+#actions {
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#actions a {
+    display: block;
+    float: left;
+}
+
+#actions #devis {
+    background: #ffffff;
+    color: #640433;
+    border: 1px solid #640433;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 18px 35px;
+    margin-right: 40px;
+    font-weight: 200;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#actions #contact {
+    background: #640433;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 18px 35px;
+    font-weight: 200;
+}
+
+#semainier-table, #tarifs-table {
+    text-align: center;
+}
+
+#semainier-table th {
+    background: #e4e4e4;
+    padding: 10px;
+}
+
+#semainier-table tr {
+
+}
+
+#semainier-table td {
+    border: 2px solid #e4e4e4;
+    padding: 16px;
+}
+
+
+#tarifs-table td, #tarifs-table th {
+    padding: 16px;
+}
+
+.avis {
+    width: 45%;
+    float: left;
+    margin: 0 20px;
+}
+
+.recette-infos {
+    float:left;
+    width: 300px;
+    padding-right: 19px;
+}
+
+.recette-description {
+    float: left;
+    text-align: justify;
+    width: 500px;
+    border-left: 2px solid #cecece;
+    padding-left: 10px;
+}

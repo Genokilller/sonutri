@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="{{ asset('css/style.css')}}"
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    <body>
+        {% block body %}
+            <header>
+                <section id="logo">
+                    <a href="{{ path("homepage") }}">
+                        <img src="{{ asset('images/logo.png') }}">
+                        <p>La diététique à domicile</p>
+                    </a>
+                </section>
+                <nav>
+                    <ul>
+                        <li><a href="{{ path("homepage") }}"><img src="{{ asset('images/home.png') }}"></a></li>
+                        <li><a href="{{ path("coaching") }}">coaching diététique</a></li>
+                        <li><a href="{{ path("prestations") }}">prestations externes</a></li>
+                        <li><a href="{{ path("tarifs") }}">tarifs</a></li>
+                        <li><a href="{{ path("quisuisje") }}">qui suis-je ?</a></li>
+                    </ul>
+                </nav>
+
+
+            </header>
+
+            <div id="breadcrumb">
+                <ul>
+                    <li><a href="{{ path("homepage") }}"><img src="{{ asset('images/home.png') }}"></a></li>
+                    <li>{% block breadcrumbFirst %}{% endblock %}</li>
+                </ul>
+            </div>
+
+            <div style="clear:both;"></div>
+
+            <section id="main">
+                <section id="content">
+                    <h1>{% block mainTitle %}{% endblock %}</h1>
+                    <hr id="title-bar">
+                    {% block content %}
+                    {% endblock %}
+                    <section id="actions">
+                        <a href="{{ path("devis") }}"><button id="devis">Demander un devis</button></a>
+                        <a href="{{ path("contact") }}"><button id="contact">Me contacter</button></a>
+                    </section>
+                </section>
+
+                <section id="contextual">
+                    <nav>
+                        <ul>
+                            <li id="zones">
+                                <a href="{{ path("zones") }}">
+                                    <div class="menu-label">zones d'intervention</div>
+                                    <div><img src="{{ asset('images/zones.png') }}" /></div>
+                                </a>
+                            </li>
+                            <li id="temoignages">
+                                <a href="{{ path("temoignages") }}">
+                                    <div class="menu-label">témoignages patients</div>
+                                    <div><img src="{{ asset('images/temoignages.png') }}" /></div>
+                                </a>
+                            </li>
+                            <li id="therapeutique">
+                                <a href="{{ path("dietetique") }}">
+                                    <div class="menu-label">diététique thérapeutique</div>
+                                    <div><img src="{{ asset('images/therapeutique.png') }}" /></div>
+                                </a>
+                            </li>
+                            <li id="idees">
+                                <a href="{{ path("idees") }}">
+                                    <div class="menu-label">idées recettes</div>
+                                    <div><img src="{{ asset('images/idees.png') }}" /></div>
+                                </a>
+                            </li>
+                            <li id="semainier">
+                                <a href="{{ path("semainier") }}">
+                                    <div class="menu-label">semainier</div>
+                                    <div><img src="{{ asset('images/semainier.png') }}" /></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <section id="portrait">
+                        <a href="{{ path("quisuisje") }}">
+                            <h2>Sophie Paulin</h2>
+                            <h3>Diététicienne nutritioniste</h3>
+                            <img src="{% block portrait %}{{ asset('images/soso-0.jpg') }}{% endblock %}"/>
+                        </a>
+                    </section>
+                    <section id="actu">
+                        <a href="{{ path("actu") }}">
+                            <h2>Actu nutrition</h2>
+                            <h3>Un nouveau regard sur l'étiquetage nutritionnel</h3>
+                            <img src="{{ asset('images/actu.png') }}">
+                        </a>
+                    </section>
+                </section>
+            </section>
+            <div style="clear:both;"></div>
+
+            <footer>
+                <div id="container">
+                    <section id="logo-footer"><a><img src="{{ asset('images/logo-footer.png') }}"></a></section>
+                    <section id="menu-first">
+                        <ul>
+                            <li><a>Coaching diététique</a></li>
+                            <li><a>Préstations externes</a></li>
+                            <li><a>Tarifs</a></li>
+                            <li><a>Qui suis-je ?</a></li>
+                        </ul>
+                    </section>
+                    <section id="menu-contextual">
+                        <ul>
+                            <li><a>Zones d'intervention</a></li>
+                            <li><a>Témoignages patients</a></li>
+                            <li><a>Diététique thérapeutique</a></li>
+                            <li><a>Idées recettes</a></li>
+                            <li><a>Semainier</a></li>
+                        </ul>
+                    </section>
+                    <section id="links">
+                        <ul>
+                            <li><a>Me contacter</a></li>
+                            <li><a>Demander un devis</a></li>
+                            <li><a>Mentions légales</a></li>
+                        </ul>
+                    </section>
+                    <div style="clear:both;"></div>
+                    <section id="infos">
+                        <p><a><img src="/images/facebook.png"><span id="facebook-text">Rejoignez-moi sur Facebook</span></a></p>
+                        <p>2015 So'Nutri. Tout droits réservés.</p>
+                    </section>
+                </div>
+            </footer>
+        {% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>

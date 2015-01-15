@@ -1,0 +1,26 @@
+AppBundle\Model\Contact:
+    properties:
+        email:
+            - Email: { message: "Votre email est invalide." }
+            - NotBlank: { message: "Un email est requis." }
+            - Length:
+                min: 1
+                max: 255
+                minMessage: "La valeur est trop courte, elle doit faire au moins {{ limit }} caractère.|La valeur est trop courte, elle doit faire au moins {{ limit }} caractères."
+                maxMessage: "Le valeur est trop longue, elle doit faire au maximum {{ limit }} caractère.|La valeur est trop longue, elle doit faire au maximum {{ limit }} caractères."
+
+        subject:
+            - NotBlank: { message: "Un sujet est requis." }
+            - Length:
+                min: 3
+                max: 100
+                minMessage: "La valeur est trop courte, elle doit faire au moins {{ limit }} caractère.|La valeur est trop courte, elle doit faire au moins {{ limit }} caractères."
+                maxMessage: "Le valeur est trop longue, elle doit faire au maximum {{ limit }} caractère.|La valeur est trop longue, elle doit faire au maximum {{ limit }} caractères."
+
+        content:
+            - NotBlank: { message: "Sans message ça risque d'être dur..." }
+            - Length:
+                min: 5
+                max: 5000
+                minMessage: "La valeur est trop courte, elle doit faire au moins {{ limit }} caractère.|La valeur est trop courte, elle doit faire au moins {{ limit }} caractères."
+                maxMessage: "Le valeur est trop longue, elle doit faire au maximum {{ limit }} caractère.|La valeur est trop longue, elle doit faire au maximum {{ limit }} caractères."
