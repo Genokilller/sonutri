@@ -40,10 +40,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6048472" vertical-offset="3041" max-vertical-offset="6945">
+            <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-1.3076923" vertical-offset="3581" max-vertical-offset="6945">
               <folding />
             </state>
           </provider>
@@ -52,10 +52,21 @@
       <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1020">
+            <state line="11" column="35" selection-start="257" selection-end="257" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1020">
               <folding>
                 <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#3;n#form#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="coaching.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="67" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.75159913" vertical-offset="0" max-vertical-offset="938">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,15 +95,15 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/thank-you.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/prestations.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/quisuisje.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/zones.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig" />
       </list>
     </option>
   </component>
@@ -802,15 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.41577825" vertical-offset="0" max-vertical-offset="938">
-          <folding>
-            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="117" column="67" selection-start="5970" selection-end="5970" vertical-scroll-proportion="-2.2025316" vertical-offset="1581" max-vertical-offset="3045">
@@ -826,9 +828,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="-1.3076923" vertical-offset="3581" max-vertical-offset="6945">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1020">
+        <state line="11" column="35" selection-start="257" selection-end="257" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="1020">
           <folding>
             <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#3;n#form#0;n#!!top" expanded="true" />
@@ -836,10 +845,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6048472" vertical-offset="3041" max-vertical-offset="6945">
-          <folding />
+        <state line="47" column="67" selection-start="3405" selection-end="3405" vertical-scroll-proportion="0.75159913" vertical-offset="0" max-vertical-offset="938">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
