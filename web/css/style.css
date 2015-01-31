@@ -190,7 +190,7 @@ section#contextual .menu-label {
     margin: auto;
 }
 
-#portrait, #actu {
+#portrait, #actu, #imc {
     float: left;
     margin-top: 15px;
     background: #640433;
@@ -199,25 +199,56 @@ section#contextual .menu-label {
     padding: 0 2px;
 }
 
-#actu {
+#actu, #imc {
     background: #82a61f;
 }
 
-#portrait h2, #actu h2 {
+#portrait h2, #actu h2, #imc h2{
     margin: 0;
     font-weight: 100;
     text-transform: uppercase;
     padding: 15px 0 0 15px;
 }
 
-#portrait h3, #actu h3 {
+#portrait h3, #actu h3, #imc h3 {
     margin: 0;
     font-weight: 400;
     padding: 0px 0 15px 15px;
 }
 
-#portrait img, #actu img {
+#portrait img, #actu img, #imc img {
     max-width: 314px;
+}
+
+#imc h2 {
+    margin-bottom: 5px;
+}
+
+#imc img {
+    max-height: 184px;
+    float: left;
+    margin-left: 10px;
+    max-width: 144px;
+}
+
+#imc input {
+    border-radius: 4px;
+    background: #ffffff;
+    border: none;
+    height: 18px;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+#imc button {
+    height: 30px;
+    background: #82a61f;
+    border: #fff 1px solid;
+    border-radius: 4px;
+    width: 92%;
+    font-size: 13px;
+    color: #fff;
 }
 
 footer {
@@ -392,14 +423,15 @@ button:hover {
 
 .recette-infos {
     float:left;
-    width: 280px;
+    width: 200px;
+    text-align: left;
     padding-right: 19px;
 }
 
 .recette-description {
     float: left;
     text-align: justify;
-    width: 500px;
+    width: 475px;
     border-left: 2px solid #cecece;
     padding-left: 10px;
 }
@@ -408,15 +440,18 @@ form input {
     height: 20px;
     padding: 5px;
     width: 400px;
+    border-radius: 5px;
 }
 
 form textarea {
     height: 150px;
     padding: 5px;
     width: 400px;
+    border-radius: 5px;
 }
 
 form input[type="submit"] {
     height: 60px;
     cursor: pointer;
+    width: 150px;
 }

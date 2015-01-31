@@ -23,110 +23,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="actu.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/actu.html.twig">
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="78" selection-start="321" selection-end="321" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="coaching.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="855">
+            <state line="117" column="67" selection-start="5970" selection-end="5970" vertical-scroll-proportion="-2.2025316" vertical-offset="1581" max-vertical-offset="3045">
               <folding>
-                <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dietetique.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="7" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
+            <state line="442" column="23" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.7312961" vertical-offset="5936" max-vertical-offset="6930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="idees.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="44" selection-start="2063" selection-end="2063" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zones.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/zones.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="22" selection-start="962" selection-end="962" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="810">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html.twig" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="69" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2101293" vertical-offset="0" max-vertical-offset="1020">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="705">
+            <state line="13" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1020">
               <folding>
-                <marker date="1422726937000" expanded="true" signature="655:668" placeholder="..." />
-                <marker date="1422726937000" expanded="true" signature="678:1121" placeholder="..." />
-                <marker date="1422726937000" expanded="true" signature="1130:1344" placeholder="..." />
-                <marker date="1422726937000" expanded="true" signature="1363:1535" placeholder="..." />
-                <marker date="1422726937000" expanded="true" signature="1592:1988" placeholder="..." />
+                <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#3;n#form#0;n#!!top" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prestations.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/prestations.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="42" selection-start="1334" selection-end="1334" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="885">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tarifs.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="49" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-29.375" vertical-offset="0" max-vertical-offset="840">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="quisuisje.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/quisuisje.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="138" selection-start="778" selection-end="778" vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="915">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -157,10 +87,10 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/prestations.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/quisuisje.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/zones.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
       </list>
@@ -806,77 +736,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/actu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="78" selection-start="321" selection-end="321" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="855">
-          <folding>
-            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="7" selection-start="1141" selection-end="1141" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="44" selection-start="2063" selection-end="2063" vertical-scroll-proportion="-27.5" vertical-offset="0" max-vertical-offset="1560">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/thank-you.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="19" selection-start="841" selection-end="841" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="435">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="705">
-          <folding>
-            <marker date="1422726937000" expanded="true" signature="655:668" placeholder="..." />
-            <marker date="1422726937000" expanded="true" signature="678:1121" placeholder="..." />
-            <marker date="1422726937000" expanded="true" signature="1130:1344" placeholder="..." />
-            <marker date="1422726937000" expanded="true" signature="1363:1535" placeholder="..." />
-            <marker date="1422726937000" expanded="true" signature="1592:1988" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/prestations.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="42" selection-start="1334" selection-end="1334" vertical-scroll-proportion="-21.25" vertical-offset="0" max-vertical-offset="885">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1660" selection-end="1660" vertical-scroll-proportion="-29.375" vertical-offset="0" max-vertical-offset="840">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -887,30 +750,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="64" selection-start="2840" selection-end="2840" vertical-scroll-proportion="-7.5" vertical-offset="795" max-vertical-offset="2340">
+        <state line="47" column="166" selection-start="1777" selection-end="1777" vertical-scroll-proportion="0.7596983" vertical-offset="0" max-vertical-offset="928">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#2;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/prestations.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="42" selection-start="1334" selection-end="1334" vertical-scroll-proportion="0.54956895" vertical-offset="0" max-vertical-offset="928">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.20788912" vertical-offset="0" max-vertical-offset="938">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/zones.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="22" selection-start="962" selection-end="962" vertical-scroll-proportion="-18.75" vertical-offset="0" max-vertical-offset="810">
+        <state line="30" column="22" selection-start="962" selection-end="962" vertical-scroll-proportion="0.4731861" vertical-offset="0" max-vertical-offset="951">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="389" column="34" selection-start="5914" selection-end="5914" vertical-scroll-proportion="0.40064794" vertical-offset="5464" max-vertical-offset="6405">
+        <state line="44" column="44" selection-start="2063" selection-end="2063" vertical-scroll-proportion="0.7036247" vertical-offset="0" max-vertical-offset="1560">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="7" selection-start="1141" selection-end="1141" vertical-scroll-proportion="0.35181236" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/actu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="78" selection-start="321" selection-end="321" vertical-scroll-proportion="0.17590618" vertical-offset="0" max-vertical-offset="938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="8" selection-start="1679" selection-end="1679" vertical-scroll-proportion="0.41577825" vertical-offset="0" max-vertical-offset="938">
+          <folding>
+            <element signature="n#style#0;n#img#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="117" column="67" selection-start="5970" selection-end="5970" vertical-scroll-proportion="-2.2025316" vertical-offset="1581" max-vertical-offset="3045">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#2;n#section#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="388" selection-end="388" vertical-scroll-proportion="0.2101293" vertical-offset="0" max-vertical-offset="1020">
+        <state line="13" column="8" selection-start="327" selection-end="327" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="1020">
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#3;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="442" column="23" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.7312961" vertical-offset="5936" max-vertical-offset="6930">
           <folding />
         </state>
       </provider>
