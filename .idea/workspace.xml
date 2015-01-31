@@ -43,7 +43,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="442" column="23" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.7312961" vertical-offset="5936" max-vertical-offset="6930">
+            <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6048472" vertical-offset="3041" max-vertical-offset="6945">
               <folding />
             </state>
           </provider>
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/zones.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/style.css" />
       </list>
     </option>
   </component>
@@ -838,7 +838,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="442" column="23" selection-start="6762" selection-end="6762" vertical-scroll-proportion="0.7312961" vertical-offset="5936" max-vertical-offset="6930">
+        <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.6048472" vertical-offset="3041" max-vertical-offset="6945">
           <folding />
         </state>
       </provider>
