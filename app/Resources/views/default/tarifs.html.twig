@@ -10,23 +10,30 @@
 {% block content %}
     <table id="tarifs-table">
         <thead>
-            <th></th>
-            <th><img src="/images/tarif-solo.jpg" /><br> Individuel</th>
-            <th><img src="/images/tarif-couple.jpg" /><br> Forfait couple</th>
+            <tr>
+                <th class="no-background no-border"></th>
+                <th class="no-background no-border"><img src="/images/tarif-solo.jpg" /></th>
+                <th class="no-background no-border"><img src="/images/tarif-couple.jpg" /></th>
+            </tr>
+            <tr>
+                <th class="no-background no-border"></th>
+                <th>Individuel</th>
+                <th>Forfait couple</th>
+            </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1ère consultation</td>
+                <th>1ère consultation</th>
                 <td>40 €</td>
                 <td>75 €</td>
             </tr>
             <tr>
-                <td>Consultations de suivi</td>
+                <th>Consultations de suivi</th>
                 <td>25 €</td>
                 <td>45 €</td>
             </tr>
             <tr>
-                <td>Bilans mensuels</td>
+                <th>Bilans mensuels</th>
                 <td>25 €</td>
                 <td>45 €</td>
             </tr>
@@ -37,6 +44,7 @@
         alimentaires. N’hésitez pas à vous renseigner auprès de votre diététicienne.
     </p>
 
-    <p style="text-align: center;"><a href="{{ path('prestations') }}" style="color:#000000;"><img src="/images/presta-link.jpg" alt="Prestations externes"><br>Prestations externes uniquement sur devis</a></p>
+    <p style="text-align: center;"><a href="{{ path('prestations') }}" style="color:#000000;"><img src="/images/presta-link.jpg" alt="Prestations externes"><br>Uniquement sur devis</a></p>
+    <p style="color: #640433;text-align: center;">Certaines mutuelles participent en partie au remboursement des visites, veuillez vous rapprocher auprès de votre mutuelle.</p>
 
 {% endblock %}

@@ -24,6 +24,14 @@ header {
 header a {
     color: #e0dddd;
 }
+.no-background {
+    background: none !important;
+}
+
+.no-border {
+    border: none !important;
+}
+
 
 #logo {
     text-align: center;
@@ -356,13 +364,9 @@ button:hover {
     text-align: center;
 }
 
-#semainier-table th {
+#semainier-table th, #tarifs-table th  {
     background: #e4e4e4;
     padding: 10px;
-}
-
-#semainier-table tr {
-
 }
 
 #semainier-table td {
@@ -372,6 +376,7 @@ button:hover {
 
 
 #tarifs-table td, #tarifs-table th {
+    border: 2px solid #e4e4e4;
     padding: 16px;
 }
 
@@ -381,9 +386,13 @@ button:hover {
     margin: 0 20px;
 }
 
+.avis blockquote {
+    font-weight: normal !important;
+}
+
 .recette-infos {
     float:left;
-    width: 300px;
+    width: 280px;
     padding-right: 19px;
 }
 
