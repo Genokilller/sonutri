@@ -11,13 +11,14 @@ a {
 
 ul {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 20px;
 }
 
 header {
-    height: 227px;
+    height: 220px;
     background: #640433;
     color: #e0dddd;
+    margin-bottom: 10px;
 }
 
 header a {
@@ -35,8 +36,8 @@ header a {
 
 header #logo p {
     margin: 0;
-    font-family: "Futura";
-    font-size: 20px;
+    font-family: "Pompiere";
+    font-size: 24px;
 }
 
 header nav {
@@ -98,18 +99,19 @@ header nav ul li img {
 }
 
 #contextual {
-    width: 390px;
+    width: 318px;
     float: right;
     margin-top: 50px;
 }
 
 #content {
     float: left;
-    width: 62%;
+    width: 70%;
     padding: 20px 15px 0 0;
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
     font-family: "lora";
+    line-height: 22px;
 }
 
 nav ul li {
@@ -127,15 +129,20 @@ nav ul li div:first-child {
 
 section#contextual .menu-label {
     color: #ffffff;
-    font-family: Futura;
+    font-family: Pompiere;
     font-size: 24px;
     font-variant: small-caps;
-    padding: 28px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     width: 243px;
-    height: 62px;
+    height: 37px;
     text-align: center;
-    font-stretch: extra-condensed;
-    letter-spacing: -1px;
+    font-weight: bold;
+    letter-spacing: 1.15px;
+    float: left;
+}
+
+#contextual nav ul li img {
+    max-height: 45px;
 }
 #contextual nav ul li#zones .menu-label {
     background: #cbca6b;
@@ -153,15 +160,20 @@ section#contextual .menu-label {
     background: #c9653a;
 }
 
-#contextual nav ul li div {
+#contextual nav ul li div.picto {
     background: #640433;
-    width: 145px;
-    height: 90px;
+    width: 75px;
+    height: 47px;
     float: left;
 }
 
 #contextual nav ul li {
     margin-top: 10px;
+    width: 318px;
+}
+
+#contextual nav ul {
+    padding: 0;
 }
 
 #main {
@@ -174,9 +186,9 @@ section#contextual .menu-label {
     float: left;
     margin-top: 15px;
     background: #640433;
-    width: 99%;
+    width: 314px;
     color: #ffffff;
-    padding: 1px;
+    padding: 0 2px;
 }
 
 #actu {
@@ -197,7 +209,7 @@ section#contextual .menu-label {
 }
 
 #portrait img, #actu img {
-    max-width: 100%;
+    max-width: 314px;
 }
 
 footer {
@@ -276,32 +288,36 @@ hr#title-bar {
 
 #content h2 {
     color: #82a61f;
-    font-family: Futura;
-    font-size: 24px;
-    font-weight: 300;
-    font-stretch: extra-condensed;
-    letter-spacing: -1px;
+    font-family: Pompiere;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 #content h3 {
     color: #fc6520;
-    font-family: Futura;
-    font-size: 24px;
-    font-weight: 300;
-    font-stretch: extra-condensed;
-    letter-spacing: -1px;
+    font-family: Pompiere;
+    font-size: 26px;
+    font-weight: 500;
 }
 
 #content blockquote {
     font-weight: bold;
     text-align: center;
+    font-family: Pompiere;
+    font-size: 22px;
+    line-height: 30px;
 }
 
 #actions {
     text-align: center;
+    margin-top: 50px;
+}
+
+#actions div {
+    width: 422px;
+    display: block;
+    height: 52px;
     margin: auto;
-    padding-top: 50px;
-    padding-left: 100px;
 }
 
 #actions a {
@@ -315,9 +331,9 @@ hr#title-bar {
     border: 1px solid #640433;
     border-radius: 5px;
     text-transform: uppercase;
-    font-size: 22px;
-    padding: 18px 35px;
-    margin-right: 40px;
+    font-size: 16px;
+    padding: 16px 26px;
+    margin-right: 24px;
     font-weight: 200;
 }
 
@@ -331,8 +347,8 @@ button:hover {
     border: 1px solid #ffffff;
     border-radius: 5px;
     text-transform: uppercase;
-    font-size: 22px;
-    padding: 18px 35px;
+    font-size: 16px;
+    padding: 16px 26px;
     font-weight: 200;
 }
 

@@ -5,6 +5,8 @@
         <title>{% block title %}Welcome!{% endblock %}</title>
 
         <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Pompiere' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
@@ -48,8 +50,10 @@
                     {% endblock %}
                     {% block contact %}
                         <section id="actions">
-                            <a href="{{ path("contact") }}"><button id="devis">Demander un devis</button></a>
-                            <a href="{{ path("contact") }}"><button id="contact">Me contacter</button></a>
+                            <div>
+                                <a href="{{ path("contact") }}"><button id="devis">Demander un devis</button></a>
+                                <a href="{{ path("contact") }}"><button id="contact">Me contacter</button></a>
+                            </div>
                         </section>
                     {% endblock %}
                 </section>
@@ -60,31 +64,31 @@
                             <li id="zones">
                                 <a href="{{ path("zones") }}">
                                     <div class="menu-label">zones d'intervention</div>
-                                    <div><img src="{{ asset('images/zones.png') }}" /></div>
+                                    <div class="picto"><img src="{{ asset('images/zones.png') }}" /></div>
                                 </a>
                             </li>
                             <li id="therapeutique">
                                 <a href="{{ path("dietetique") }}">
                                     <div class="menu-label">diététique thérapeutique</div>
-                                    <div><img src="{{ asset('images/therapeutique.png') }}" /></div>
+                                    <div class="picto"><img src="{{ asset('images/therapeutique.png') }}" /></div>
                                 </a>
                             </li>
                             <li id="idees">
                                 <a href="{{ path("idees") }}">
                                     <div class="menu-label">idées recettes</div>
-                                    <div><img src="{{ asset('images/idees.png') }}" /></div>
+                                    <div class="picto"><img src="{{ asset('images/idees.png') }}" /></div>
                                 </a>
                             </li>
                             <li id="semainier">
                                 <a href="{{ path("semainier") }}">
                                     <div class="menu-label">semainier</div>
-                                    <div><img src="{{ asset('images/semainier.png') }}" /></div>
+                                    <div class="picto"><img src="{{ asset('images/semainier.png') }}" /></div>
                                 </a>
                             </li>
                             <li id="temoignages">
                                 <a href="{{ path("temoignages") }}">
                                     <div class="menu-label">témoignages patients</div>
-                                    <div><img src="{{ asset('images/temoignages.png') }}" /></div>
+                                    <div class="picto"><img src="{{ asset('images/temoignages.png') }}" /></div>
                                 </a>
                             </li>
                         </ul>
