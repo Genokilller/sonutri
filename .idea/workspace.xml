@@ -23,10 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sitemap.xml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html.twig" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.45215312" vertical-offset="54" max-vertical-offset="3924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sitemap.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/sitemap.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="779" selection-end="779" vertical-scroll-proportion="0.49315068" vertical-offset="0" max-vertical-offset="1332">
+            <state line="24" column="33" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
               <folding />
             </state>
           </provider>
@@ -81,17 +90,6 @@
                 <element signature="n#style#0;n#hr#1;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#8;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#hr#2;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="14" selection-start="139" selection-end="320" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="900">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,8 +168,8 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/temoignages.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/zones.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/web/sitemap.xml" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -902,16 +900,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/sitemap.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="2175" selection-end="2175" vertical-scroll-proportion="0.96889955" vertical-offset="36" max-vertical-offset="3744">
+        <state line="24" column="33" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/sitemap.xml">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="779" selection-end="779" vertical-scroll-proportion="0.49315068" vertical-offset="0" max-vertical-offset="1332">
+        <state line="24" column="0" selection-start="1378" selection-end="1378" vertical-scroll-proportion="0.45215312" vertical-offset="54" max-vertical-offset="3924">
           <folding />
         </state>
       </provider>
