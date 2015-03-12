@@ -288,7 +288,7 @@ footer a:hover {
 }
 
 footer #infos {
-    width: 260px;
+    width: 460px;
     margin: auto;
     float: none;
     text-align: center;
@@ -297,14 +297,14 @@ footer #infos {
 
 footer #infos img {
     float: left;
-    margin-left: 20px;
+    margin-left: 130px;
 }
 
 #facebook-text {
     padding-top: 6px;
     display: block;
     float: left;
-    width: 77%;
+    width: 50%;
     height: 40px;
 }
 footer #container {
