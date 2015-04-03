@@ -28,6 +28,7 @@ get_header(); ?>
 						<?php endif; ?>
 
 						<h1 class="entry-title"><?php the_title(); ?></h1>
+                        <hr id="title-bar">
 					</header><!-- .entry-header -->
 
 					<div class="entry-content">
@@ -40,7 +41,7 @@ get_header(); ?>
 					</footer><!-- .entry-meta -->
 				</article><!-- #post -->
 
-				<?php comments_template(); ?>
+				<?php //comments_template(); ?>
 			<?php endwhile; ?>
 
 		</div><!-- #content -->

@@ -13,6 +13,7 @@
 		<h1 class="entry-title">
 			<a href="<?php echo esc_url( twentythirteen_get_link_url() ); ?>"><?php the_title(); ?></a>
 		</h1>
+        <hr id="title-bar">
 
 		<div class="entry-meta">
 			<?php twentythirteen_entry_date(); ?>

@@ -12,10 +12,9 @@
 
 		</div><!-- #main -->
 		<footer id="colophon" class="site-footer" role="contentinfo">
+            <section id="logo-footer"><a><img src="<?php bloginfo('template_url'); ?>/images/sonutri/logo-footer.png"></a></section>
 			<?php get_sidebar( 'main' ); ?>
 
-			<div class="site-info">
-			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 	</div><!-- #page -->
 

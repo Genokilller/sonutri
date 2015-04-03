@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/header.php">
+      <file leaf-file-name="sidebar-main.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar-main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="30" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="918">
+            <state line="17" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -35,66 +35,22 @@
       <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="324">
+            <state line="59" column="47" selection-start="3022" selection-end="3022" vertical-scroll-proportion="-3.8850574" vertical-offset="724" max-vertical-offset="2052">
               <folding>
-                <marker date="1427971026403" expanded="true" signature="297:568" placeholder="..." />
-                <marker date="1427971026403" expanded="true" signature="367:542" placeholder="..." />
-                <marker date="1427971026403" expanded="true" signature="397:511" placeholder="..." />
-                <marker date="1427971026403" expanded="true" signature="426:481" placeholder="..." />
+                <element signature="e#6#254#0" expanded="true" />
+                <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/footer.php">
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396">
-              <folding>
-                <marker date="1427971065931" expanded="true" signature="314:418" placeholder="..." />
-                <marker date="1427971065931" expanded="true" signature="377:387" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sidebar-main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar-main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
-              <folding>
-                <marker date="1379698450000" expanded="true" signature="326:436" placeholder="..." />
-                <marker date="1379698450000" expanded="true" signature="354:407" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zones.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/zones.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="31" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-16.333334" vertical-offset="333" max-vertical-offset="1098">
-              <folding>
-                <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dietetique.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="59" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-11.333333" vertical-offset="72" max-vertical-offset="702">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semainier.html.twig" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/semainier.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="-9.333333" vertical-offset="108" max-vertical-offset="2448">
+            <state line="45" column="16" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-8.074074" vertical-offset="448" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -103,27 +59,61 @@
       <file leaf-file-name="temoignages.html.twig" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/default/temoignages.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="18" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-10.0" vertical-offset="522" max-vertical-offset="1080">
-              <folding>
-                <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="idees.html.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="8" selection-start="3173" selection-end="3199" vertical-scroll-proportion="0.3442623" vertical-offset="1053" max-vertical-offset="1926">
+            <state line="44" column="18" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-10.407408" vertical-offset="511" max-vertical-offset="1080">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="29" selection-start="10568" selection-end="10568" vertical-scroll-proportion="-8.0" vertical-offset="3078" max-vertical-offset="3924">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="846">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="815" column="1" selection-start="13211" selection-end="13211" vertical-scroll-proportion="0.0" vertical-offset="16951" max-vertical-offset="58140">
+            <state line="623" column="41" selection-start="10246" selection-end="10246" vertical-scroll-proportion="0.36549166" vertical-offset="11017" max-vertical-offset="61038">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="37" selection-start="507" selection-end="512" vertical-scroll-proportion="-8.666667" vertical-offset="54" max-vertical-offset="1296">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thank-you.html.twig" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/default/thank-you.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="47" selection-start="769" selection-end="769" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="522">
               <folding />
             </state>
           </provider>
@@ -153,7 +143,6 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/actu.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/devis.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/idees.html.twig" />
@@ -165,9 +154,19 @@
         <option value="$PROJECT_DIR$/app/Resources/views/default/zones.html.twig" />
         <option value="$PROJECT_DIR$/wp/wp-config.php" />
         <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/inc/custom-header.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-image.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-audio.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-chat.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-gallery.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-link.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-video.php" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/page.php" />
         <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/header.php" />
         <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar.php" />
         <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/footer.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/default/contact.html.twig" />
+        <option value="$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/style.css" />
       </list>
     </option>
   </component>
@@ -204,7 +203,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -329,7 +327,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonutri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonutri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentythirteen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonutri" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,6 +376,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonutri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sonutri" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -465,6 +515,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,11 +587,11 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32916668" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33645833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27614832" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28943" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3998006" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -572,106 +623,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.0" vertical-offset="555" max-vertical-offset="1140" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="16" selection-start="48" selection-end="48" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="165" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="499" selection-end="499" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="720" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.046153847" vertical-offset="0" max-vertical-offset="975" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Model/Contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.25" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/validation.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="59" selection-start="1002" selection-end="1002" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/ContactType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="10" selection-start="859" selection-end="859" vertical-scroll-proportion="-21.875" vertical-offset="0" max-vertical-offset="810" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="270" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="42" selection-start="2954" selection-end="2954" vertical-scroll-proportion="-25.875" vertical-offset="1314" max-vertical-offset="2265" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/images/balance.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="241" column="15" selection-start="3624" selection-end="3624" vertical-scroll-proportion="0.0" vertical-offset="4338" max-vertical-offset="8334" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/googlece93834c83279359.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="49" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="952" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sitemap.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="779" selection-end="779" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="73" selection-start="218" selection-end="218" vertical-scroll-proportion="-4.0" vertical-offset="0" max-vertical-offset="3924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="166" selection-end="166" vertical-scroll-proportion="-1.6551725" vertical-offset="0" max-vertical-offset="900" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/actu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="846" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/coaching.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="53" selection-start="321" selection-end="321" vertical-scroll-proportion="0.19541617" vertical-offset="0" max-vertical-offset="1080" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="125" selection-end="331" vertical-scroll-proportion="-4.6666665" vertical-offset="0" max-vertical-offset="1296" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/devis.html.twig">
@@ -692,11 +646,6 @@
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/tarifs.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="23" selection-start="147" selection-end="147" vertical-scroll-proportion="-3.3333333" vertical-offset="54" max-vertical-offset="1062" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/thank-you.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="19" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="522" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
@@ -754,119 +703,241 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5292" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/css/editor-style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13986" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/inc/custom-header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="13" selection-start="4696" selection-end="4696" vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="4194">
-          <folding />
-        </state>
+        <state line="160" column="13" selection-start="4696" selection-end="4696" vertical-scroll-proportion="0.0" vertical-offset="2880" max-vertical-offset="4194" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="774">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1116" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/page.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="815" column="1" selection-start="13211" selection-end="13211" vertical-scroll-proportion="0.0" vertical-offset="16951" max-vertical-offset="58140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="30" selection-start="1008" selection-end="1008" vertical-scroll-proportion="-17.333334" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="578" selection-end="578" vertical-scroll-proportion="-8.0" vertical-offset="0" max-vertical-offset="324">
-          <folding>
-            <marker date="1427971026403" expanded="true" signature="297:568" placeholder="..." />
-            <marker date="1427971026403" expanded="true" signature="367:542" placeholder="..." />
-            <marker date="1427971026403" expanded="true" signature="397:511" placeholder="..." />
-            <marker date="1427971026403" expanded="true" signature="426:481" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="396">
-          <folding>
-            <marker date="1427971065931" expanded="true" signature="314:418" placeholder="..." />
-            <marker date="1427971065931" expanded="true" signature="377:387" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
-          <folding>
-            <marker date="1379698450000" expanded="true" signature="326:436" placeholder="..." />
-            <marker date="1379698450000" expanded="true" signature="354:407" placeholder="..." />
-          </folding>
-        </state>
+        <state line="37" column="22" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="666" max-vertical-offset="774" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/zones.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="31" selection-start="2040" selection-end="2040" vertical-scroll-proportion="-16.333334" vertical-offset="333" max-vertical-offset="1098">
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="43" column="31" selection-start="2040" selection-end="2040" vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1098">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/dietetique.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="59" selection-start="1009" selection-end="1009" vertical-scroll-proportion="-11.333333" vertical-offset="72" max-vertical-offset="702">
+        <state line="21" column="59" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="702">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/semainier.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="-9.333333" vertical-offset="108" max-vertical-offset="2448">
+        <state line="20" column="29" selection-start="652" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="8" selection-start="3173" selection-end="3199" vertical-scroll-proportion="0.0" vertical-offset="1053" max-vertical-offset="1926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="21" selection-start="515" selection-end="515" vertical-scroll-proportion="-8.666667" vertical-offset="108" max-vertical-offset="1152" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormConfigInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="203" column="26" selection-start="5335" selection-end="5335" vertical-scroll-proportion="-0.569395" vertical-offset="3830" max-vertical-offset="4392" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/symfony/symfony/src/Symfony/Component/Form/FormInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="25" selection-start="5090" selection-end="5090" vertical-scroll-proportion="0.48754448" vertical-offset="2426" max-vertical-offset="5526" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="7" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-18.0" vertical-offset="270" max-vertical-offset="2664">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/css/editor-style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.6227348" vertical-offset="378" max-vertical-offset="13986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-aside.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="27" selection-start="760" selection-end="760" vertical-scroll-proportion="-6.0740743" vertical-offset="178" max-vertical-offset="1152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="222" selection-end="222" vertical-scroll-proportion="2.1111112" vertical-offset="129" max-vertical-offset="684">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-audio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="828">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-chat.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="31" selection-start="374" selection-end="374" vertical-scroll-proportion="-5.3333335" vertical-offset="0" max-vertical-offset="720">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-gallery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="23" selection-start="534" selection-end="534" vertical-scroll-proportion="-4.740741" vertical-offset="106" max-vertical-offset="972">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-link.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="27" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="792">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-none.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-quote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-status.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/content-video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="31" selection-start="540" selection-end="540" vertical-scroll-proportion="-8.666667" vertical-offset="0" max-vertical-offset="918">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/images/sonutri/therapeutique.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="1" selection-start="1825" selection-end="1825" vertical-scroll-proportion="-15.133333" vertical-offset="1976" max-vertical-offset="8334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="536" selection-end="536" vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="15" selection-start="472" selection-end="472" vertical-scroll-proportion="-6.0" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="16" selection-start="1759" selection-end="1759" vertical-scroll-proportion="-8.074074" vertical-offset="448" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="29" selection-start="10568" selection-end="10568" vertical-scroll-proportion="-8.0" vertical-offset="3078" max-vertical-offset="3924">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/thank-you.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="47" selection-start="769" selection-end="769" vertical-scroll-proportion="-11.333333" vertical-offset="0" max-vertical-offset="522">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/default/temoignages.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="18" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-10.0" vertical-offset="522" max-vertical-offset="1080">
+        <state line="44" column="18" selection-start="1633" selection-end="1633" vertical-scroll-proportion="-10.407408" vertical-offset="511" max-vertical-offset="1080">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="507" selection-end="512" vertical-scroll-proportion="-8.666667" vertical-offset="54" max-vertical-offset="1296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="47" selection-start="3022" selection-end="3022" vertical-scroll-proportion="-3.8850574" vertical-offset="724" max-vertical-offset="2052">
           <folding>
-            <element signature="n#style#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="e#6#254#0" expanded="true" />
+            <element signature="n#style#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#section#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/idees.html.twig">
+    <entry file="file://$PROJECT_DIR$/wp/wp-content/themes/twentythirteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="8" selection-start="3173" selection-end="3199" vertical-scroll-proportion="0.3442623" vertical-offset="1053" max-vertical-offset="1926">
+        <state line="623" column="41" selection-start="10246" selection-end="10246" vertical-scroll-proportion="0.36549166" vertical-offset="11017" max-vertical-offset="61038">
           <folding />
         </state>
       </provider>

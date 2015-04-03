@@ -103,7 +103,7 @@ button,
 input,
 select,
 textarea {
-	font-family: "Source Sans Pro", Helvetica, sans-serif;
+	font-family: "Lato", Helvetica, sans-serif;
 }
 
 body {
@@ -113,8 +113,8 @@ body {
 }
 
 a {
-	color: #ca3c08;
-	text-decoration: none;
+	color: #ffffff;
+	text-decoration: none !important;
 }
 
 a:visited {
@@ -127,7 +127,6 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #ea9629;
 	outline: 0;
 }
 
@@ -142,7 +141,7 @@ h4,
 h5,
 h6 {
 	clear: both;
-	font-family: Bitter, Georgia, serif;
+	font-family: Lato, Georgia, serif;
 	line-height: 1.3;
 }
 
@@ -152,7 +151,7 @@ h1 {
 }
 
 h2 {
-	font-size: 30px;
+	font-size: 26px;
 	margin: 25px 0;
 }
 
@@ -587,12 +586,11 @@ button,
 input[type="submit"],
 input[type="button"],
 input[type="reset"] {
-	background: #e05d22; /* Old browsers */
-	background: -webkit-linear-gradient(top, #e05d22 0%, #d94412 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #e05d22 0%, #d94412 100%); /* W3C */
-	border: none;
-	border-bottom: 3px solid #b93207;
-	border-radius: 2px;
+	background: #640433; /* Old browsers */
+	background: -webkit-linear-gradient(top, #640433 0%, #640433 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #640433 0%, #640433 100%); /* W3C */
+	border: 1px solid #ffffff;
+	border-radius: 5px;
 	color: #fff;
 	display: inline-block;
 	padding: 11px 24px 10px;
@@ -607,9 +605,9 @@ input[type="reset"]:hover,
 input[type="submit"]:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus {
-	background: #ed6a31; /* Old browsers */
-	background: -webkit-linear-gradient(top, #ed6a31 0%, #e55627 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #ed6a31 0%, #e55627 100%); /* W3C */
+	background: #640433; /* Old browsers */
+	background: -webkit-linear-gradient(top, #640433 0%, #640433 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #640433 0%, #640433 100%); /* W3C */
 	outline: none;
 }
 
@@ -617,11 +615,9 @@ button:active,
 input[type="submit"]:active,
 input[type="button"]:active,
 input[type="reset"]:active {
-	background: #d94412; /* Old browsers */
-	background: -webkit-linear-gradient(top, #d94412 0%, #e05d22 100%); /* Chrome 10+, Safari 5.1+ */
-	background:   linear-gradient(to bottom, #d94412 0%, #e05d22 100%); /* W3C */
-	border: none;
-	border-top: 3px solid #b93207;
+	background: #640433; /* Old browsers */
+	background: -webkit-linear-gradient(top, #640433 0%, #640433 100%); /* Chrome 10+, Safari 5.1+ */
+	background:   linear-gradient(to bottom, #640433 0%, #640433 100%); /* W3C */
 	padding: 10px 24px 11px;
 }
 
@@ -839,7 +835,7 @@ img.wp-smiley,
 }
 
 .site-description {
-	font: 300 italic 24px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 24px "Pompiere", Helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -869,25 +865,28 @@ div.nav-menu > ul {
 }
 
 .nav-menu li a {
-	color: #141412;
+	color: #640433;
 	display: block;
-	font-size: 15px;
+	font-size: 22px;
 	line-height: 1;
 	padding: 15px 20px;
 	text-decoration: none;
+    font-family: "Lato";
+    font-variant: small-caps;
+    font-weight: 300;
 }
 
 .nav-menu li:hover > a,
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: #220e10;
+	background-color: #640433;
 	color: #fff;
 }
 
 .nav-menu .sub-menu,
 .nav-menu .children {
-	background-color: #220e10;
+	background-color: #640433;
 	border: 2px solid #f7f5e7;
 	border-top: 0;
 	padding: 0;
@@ -935,7 +934,7 @@ ul.nav-menu .focus > ul,
 .nav-menu .current_page_ancestor > a,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
-	color: #bc360a;
+	color: #640433;
 	font-style: italic;
 }
 
@@ -945,10 +944,17 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: #f7f5e7;
+	background-color: #ffffff;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
+    border-bottom: 1px solid #640433;
+}
+
+/* Navbar */
+.navbar ul {
+    margin: auto;
+    text-align: center;
 }
 
 .site-header .search-form {
@@ -980,6 +986,12 @@ ul.nav-menu .focus > ul,
 	cursor: text;
 	outline: 0;
 	width: 230px;
+}
+
+.site-header a {
+    text-align: center;
+    font-family: "Pompiere";
+    font-size: 24px;
 }
 
 
@@ -1029,16 +1041,21 @@ ul.nav-menu .focus > ul,
 }
 
 .entry-title {
-	font-weight: normal;
-	margin: 0 0 5px;
+    margin-bottom: 6px;
+    color: #640433;
+    text-transform: uppercase;
+    font-family: "Lato";
+    line-height: 22px;
+    font-size: 1.17em;
 }
 
 .entry-title a {
-	color: #141412;
+    color: #640433;
+    text-decoration: none;
 }
 
 .entry-title a:hover {
-	color: #ea9629;
+    color: #640433;
 }
 
 
@@ -1547,7 +1564,7 @@ footer.entry-meta {
 .format-link .entry-title {
 	color: #ca3c08;
 	display: inline;
-	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 20px "Lato", Helvetica, sans-serif;
 	margin-right: 20px;
 }
 
@@ -1757,7 +1774,7 @@ footer.entry-meta {
 .attachment .entry-title {
 	display: inline-block;
 	float: left;
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px "Lato", Helvetica, sans-serif;
 	margin: 0;
 }
 
@@ -2011,7 +2028,7 @@ footer.entry-meta {
 
 .author-description .author-title {
 	clear: none;
-	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 20px "Lato", Helvetica, sans-serif;
 	margin: 0 0 8px;
 }
 
@@ -2036,7 +2053,7 @@ footer.entry-meta {
 
 .archive-title,
 .archive-meta {
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px "Lato", Helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 30px 0;
@@ -2066,7 +2083,7 @@ footer.entry-meta {
 }
 
 .page-title {
-	font: 300 italic 30px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 30px "Lato", Helvetica, sans-serif;
 	margin: 0 auto;
 	max-width: 1040px;
 	padding: 30px 0;
@@ -2159,7 +2176,7 @@ footer.entry-meta {
 }
 
 .comments-title {
-	font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 28px "Lato", Helvetica, sans-serif;
 }
 
 .comment-list,
@@ -2300,7 +2317,7 @@ footer.entry-meta {
 }
 
 .comment-reply-title {
-	font: 300 italic 28px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 italic 28px "Lato", Helvetica, sans-serif;
 }
 
 .comment-reply-title small a {
@@ -2449,7 +2466,6 @@ footer.entry-meta {
  */
 
 .widget {
-	background-color: rgba(247, 245, 231, 0.7);
 	font-size: 14px;
 	-webkit-hyphens: auto;
 	-moz-hyphens:    auto;
@@ -2461,8 +2477,13 @@ footer.entry-meta {
 }
 
 .widget .widget-title {
-	font: 300 italic 20px "Source Sans Pro", Helvetica, sans-serif;
+	font: 300 20px "Pompiere", Helvetica, sans-serif;
 	margin: 0 0 10px;
+}
+
+.widget a {
+	font: 300 20px "Pompiere", Helvetica, sans-serif;
+
 }
 
 .widget ul,
@@ -2570,7 +2591,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: #220e10;
+	background: url(images/sonutri/fruits.png) no-repeat bottom #ffffff;
 	padding: 20px 0;
 }
 
@@ -2625,6 +2646,141 @@ footer.entry-meta {
 	margin: -10px auto 0;
 }
 
+#title-bar {
+    width: 20px;
+    color: #640433;
+    float: left;
+    margin: 0 0 0 0;
+    background: #640433;
+}
+
+.entry-content h2 {
+    color: #82a61f;
+    font-family: "Pompiere";
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+#portrait, #actu, #imc {
+    float: left;
+    margin-top: 15px;
+    background: #640433;
+    width: 314px;
+    color: #ffffff;
+}
+
+#actu, #imc {
+    background: #82a61f;
+}
+
+#portrait h2, #actu h2, #imc h2{
+    margin: 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding: 15px 0 0 15px;
+}
+
+#portrait h3, #actu h3, #imc h3 {
+    margin: 0;
+    font-weight: 400;
+    padding: 0px 0 15px 15px;
+}
+
+#portrait img, #actu img, #imc img {
+    max-width: 314px;
+}
+
+#imc h2 {
+    margin-bottom: 5px;
+}
+
+#imc img {
+    max-height: 184px;
+    float: left;
+    margin-left: 10px;
+    max-width: 144px;
+}
+
+#imc input {
+    border-radius: 4px;
+    background: #ffffff;
+    border: none;
+    height: 18px;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    width: 86%;
+}
+
+#imc button {
+    height: 56px;
+    background: #82a61f;
+    border: #fff 1px solid;
+    border-radius: 4px;
+    width: 92%;
+    font-size: 13px;
+    color: #fff;
+}
+
+#logo-footer {
+    background: #ffffff;
+    display: inline;
+    float: left;
+    margin-top: 100px;
+}
+
+
+#sidebar-menu .menu-label {
+    color: #ffffff;
+    font-family: Pompiere;
+    font-size: 24px;
+    font-variant: small-caps;
+    padding: 5px 0px 0px 0px;
+    width: 243px;
+    height: 47px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.15px;
+    float: left;
+}
+
+#sidebar-menu ul li img {
+    max-height: 45px;
+}
+#sidebar-menu ul li#zones .menu-label {
+    background: #cbca6b;
+}
+#sidebar-menu ul li#therapeutique .menu-label {
+    background: #82a61f;
+}
+#sidebar-menu ul li#idees .menu-label {
+    background: #f39c2a;
+}
+#sidebar-menu ul li#semainier .menu-label {
+    background: #fc6520;
+}
+#sidebar-menu ul li#temoignages .menu-label{
+    background: #c9653a;
+}
+
+#sidebar-menu  ul li div.picto {
+    background: #640433;
+    width: 75px;
+    height: 47px;
+    float: left;
+}
+
+#sidebar-menu  ul li {
+    margin-top: 10px;
+    width: 318px;
+    display: block;
+    height: 47px;
+}
+
+#sidebar-menu  ul {
+    padding: 0;
+}
 
 /**
  * 8.0 Media Queries
@@ -2863,7 +3019,7 @@ footer.entry-meta {
 	.menu-toggle {
 		cursor: pointer;
 		display: inline-block;
-		font: bold 16px/1.3 "Source Sans Pro", Helvetica, sans-serif;
+		font: bold 16px/1.3 "Lato", Helvetica, sans-serif;
 		margin: 0;
 	}
 
@@ -2873,7 +3029,7 @@ footer.entry-meta {
 	.menu-toggle:active {
 		background: none;
 		border: none;
-		color: #141412;
+		color: #640433;
 		padding: 12px 0 12px 20px;
 	}
 
@@ -2924,18 +3080,18 @@ footer.entry-meta {
 	.toggled-on .nav-menu li:hover > a,
 	.toggled-on .nav-menu .children a {
 		background-color: transparent;
-		color: #141412;
+		color: #640433;
 	}
 
 	.toggled-on .nav-menu > li a:hover,
 	.toggled-on .nav-menu > ul a:hover {
-		background-color: #db572f;
+		background-color: #640433;
 		color: #fff;
 	}
 
 	.toggled-on .nav-menu > li a:focus,
 	.toggled-on .nav-menu > ul a:focus {
-		background-color: #220e10;
+		background-color: #640433;
 		color: #fff;
 	}
 
@@ -2958,8 +3114,10 @@ footer.entry-meta {
 	.format-image .entry-title,
 	.format-gallery .entry-title,
 	.format-video .entry-title {
-		font-size: 22px;
-		font-weight: bold;
+        margin-bottom: 6px;
+        color: #640433;
+        text-transform: uppercase;
+        font-family: "Lato";
 	}
 
 	.format-quote blockquote,
@@ -3177,7 +3335,10 @@ footer.entry-meta {
 
 	.page-title,
 	.entry-title {
-		font-size: 21pt;
+        margin-bottom: 6px;
+        color: #640433;
+        text-transform: uppercase;
+        font-family: "Lato";
 	}
 
 	.entry-meta,

@@ -20,10 +20,12 @@
 
 		<?php if ( is_single() ) : ?>
 		<h1 class="entry-title"><?php the_title(); ?></h1>
+            <hr id="title-bar">
 		<?php else : ?>
 		<h1 class="entry-title">
 			<a href="<?php the_permalink(); ?>" rel="bookmark"><?php the_title(); ?></a>
 		</h1>
+            <hr id="title-bar">
 		<?php endif; // is_single() ?>
 
 		<div class="entry-meta">
